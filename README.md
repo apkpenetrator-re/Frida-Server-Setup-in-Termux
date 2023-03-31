@@ -49,7 +49,7 @@ tsu
 ```
 10. Open another session in Termux and run the following command to start Frida with your desired package name and script:
 ```
-frida -H 127.0.0.1:1234 -no-pause -f pkg.name -l script.js
+frida -H 127.0.0.1:1234 -f pkg.name -l script.js
 ```
 Note: Use android 10 os with close to aosp rom like pixel roms etc to run frida-server without any errors!
 
